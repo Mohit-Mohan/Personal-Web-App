@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Projects from "./compnents/Projects";
 import Background from "./compnents/Background";
@@ -19,24 +19,29 @@ import Footer from "./compnents/Footer";
 function App() {
   let count = 1;
 
+ 
+
   return (
     <Router>
       <div className="App">
         <Routes>
           <Route
             path="/"
+            
             element={
+             
               <>
-                <div className=" container FirstSection_css">
+                <div className="container FirstSection_css">
                   <Nav />
                   <IamSection />
                 </div>
-                <Projects />
+                  <Projects />
                 <Background count={count} />
                 <About />
                 <Background count={count + 1} />
-                <Contact />
-              </>
+                <Contact   />
+                </>
+                
             }
           />
         </Routes>
@@ -52,6 +57,7 @@ function App() {
         <Routes>
           <Route path="/about" element={<MoreAbout />} />
         </Routes>
+        
         <Footer />
       </div>
     </Router>

@@ -18,7 +18,7 @@ const Project1 = () => {
       </div>
 
       <div className="project1_img1" />
-      <div className="video_project1">
+      <div className="video_project1" style={{backgroundColor:"black",paddingTop:"5%"}}>
         <iframe
           width="500"
           height="400"

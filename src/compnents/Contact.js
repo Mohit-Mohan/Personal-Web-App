@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = ({val,width}) => {
   return (
-    <div className="container contact " id="contact" style={val ? {width:`${width}px`} : " "}  >
+    <div className="container contact " id="contact"   >
       <span>
         <a href="https://www.linkedin.com/in/mohit-mohan1/" target="blank">
           <svg
