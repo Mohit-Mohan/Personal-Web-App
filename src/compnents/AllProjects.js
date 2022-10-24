@@ -22,22 +22,24 @@ const AllProjects = () => {
               <span className="img1">
                 <Link to="/allprojects/project1">
                   <img
+                  className="project_img"
                     src="https://i.ibb.co/KsV2WPs/C2-Dragon-Sicilian.png"
                     alt=""
                   />
+                <span className="allprojects_img">Imperial Dice Chess</span>
                 </Link>
-                <span className="allprojects_img1"style={{left:"21%"}}>Imperial Dice Chess</span>
               </span>
             </div>
             <div class="col projects_col">
               <span className="img1">
                 <Link to="/allprojects/project2">
-                  <img
+                  <img 
+                  className="project_img"
                     src="https://i.ibb.co/K75r6J3/DS-Dragon-Lavarys.png"
                     alt=""
                   />
 
-                  <span className="allprojects_img1"style={{right: "11%"}}>Vehicle Insurance Fraud Detection Model</span>
+                  <span className="allprojects_img">Vehicle Insurance Fraud Detection Model</span>
                 </Link>
               </span>
             </div>
@@ -45,10 +47,11 @@ const AllProjects = () => {
               <span className="img2">
                 <Link to="/allprojects/project3">
                   <img
+                  className="project_img"
                     src="https://i.ibb.co/zHD06dn/SDE-Dragon-Penelope.png"
                     alt=""
                   />
-                  <span className="allprojects_img"style={{left:"26%"}}>Rebirth</span>
+                  <span className="allprojects_img ">Rebirth</span>
                 </Link>
               </span>
             </div>
@@ -56,29 +59,32 @@ const AllProjects = () => {
               <span className="img2">
                 <Link to="/allprojects/project4">
                   <img
+                  className="project_img"
                     src="https://i.ibb.co/yVrBk38/IDE-Dragon-Waeve.png"
                     alt=""
                   />
-                  <span className="allprojects_img"style={{right:"20%"}}>Blok-1, Music in 3D</span>
+                  <span className="allprojects_img">Blok-1, Music in 3D</span>
                 </Link>
               </span>
             </div>
-            <div class="col">
+            <div class="col projects_col">
               <span className="img3">
                 <img
+                className="project_img"
                   src="https://i.ibb.co/PDy92vT/PMAT-Dragon-Drall-E.png"
                   alt=""
                 />
-                <span className="allprojects_img" style={{left:"22%"}}>Coming Soon...</span>
+                <span className="allprojects_img" >Coming Soon...</span>
               </span>
             </div>
-            <div class="col">
+            <div class="col projects_col">
               <span className="img3">
                 <img
+                className="project_img"
                   src="https://i.ibb.co/wMY1Yk6/TF-Dragon-Batter.png"
                   alt=""
                 />
-                <span className="allprojects_img" style={{right:"22%"}}>Coming Soon...</span>
+                <span className="allprojects_img" >Coming Soon...</span>
               </span>
             </div>
           </div>

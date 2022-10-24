@@ -118,98 +118,28 @@
 
 .projects_col {
   padding-bottom: 7px;
+  position: relative;
 }
 
-.img1 img:hover {
-  display: block;
-  opacity: 0.5;
+.allprojects_img{
+  position: absolute;
+  inset: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+.projects_col:hover .allprojects_img{
+  display: flex;
   cursor: pointer;
 }
 
-.imgtext1 {
-  display: none;
-}
-.img1:hover .imgtext1 {
-  color: white;
-  display: inherit;
-  opacity: 1;
-  position: absolute;
-  top: 86rem;
-  font-size: 30px;
+.projects_col:hover .project_img
+{
   
-}
-
-.allprojects_img1 {
-  display: none;
-}
-.img1:hover .allprojects_img1 {
-  color: white;
-  display: inherit;
-  opacity: 1;
-  position: absolute;
-  bottom: 50%;
-  font-size: 30px;
-
-
-}
-
-.allprojects_img {
-  display: none;
-}
-
-.img2:hover .allprojects_img {
-  color: white;
-  display: inherit;
-  opacity: 1;
-  position: absolute;
-  bottom: 0%;
-  font-size: 30px;
-
-}
-.img3:hover .allprojects_img {
-  color: white;
-  display: inherit;
-  opacity: 1;
-  position: absolute;
-  bottom: -50%;
-  font-size: 30px;
-
-}
-
-.img2 img:hover {
-  display: block;
   opacity: 0.5;
-  cursor: pointer;
-}
-
-.imgtext2 {
-  display: none;
-}
-.img2:hover .imgtext2 {
-  color: white;
-  display: inherit;
-  opacity: 1;
-  position: absolute;
-  top: 110rem;
-  font-size: 30px;
-
-}
-
-.img3 img:hover {
-  display: block;
-  opacity: 0.5;
-  cursor: pointer;
-}
-
-.imgtext3 {
-  display: none;
-}
-.img3:hover .imgtext3 {
-  color: white;
-  display: inherit;
-  opacity: 1;
-  position: absolute;
-  top: 131rem;
 }
 
 
@@ -305,6 +235,7 @@
   text-align: left;
   padding-left: 2rem;
 }
+
 
 
 @media(max-width:767px)
