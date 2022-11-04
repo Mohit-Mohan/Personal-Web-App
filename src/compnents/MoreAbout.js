@@ -2,11 +2,9 @@ import React from "react";
 import Contact from "./Contact";
 import { Link } from "react-router-dom";
 const MoreAbout = () => {
- 
   let val = true;
   let width = 84;
   return (
-    
     <div className="container about">
       <h2
         style={{ marginBottom: "4rem", fontSize: "3rem", paddingTop: "4rem" }}
@@ -17,21 +15,43 @@ const MoreAbout = () => {
 
       <div className="row">
         <div className="col-md-7">
-          
           <div className=" about_the_creator_text">
-          <p>
-          I was born in India, a land driven by culture, diversity, and innovation. My vision is shaped by these core principles of my country which are also reflected in my projects. I attribute my primary characteristics of self-reliance and problem solving to my curiosity and quest for making an impact. All my projects highlight the same by finding solutions to relevant and real problems which people face on a daily basis, whilst adding my personal flair. Having lived in Edinburgh and London, as well, I have further been able to develop a global perspective which allows me to look at a challenge from various lenses. 
-
-          </p>
-          <div> Having created a strong theoretical base in Mechanical and Electrical Engineering during my time at the University of Edinburgh, I got the opportunity to solidify my knowledge and use the principles of divergent thinking to innovate unique design concepts and products at Imperial College London. My current degree also equips me with the academic and real-life skills which are essential for the growth of an Engineer and has helped me develop important insights into reverse engineering and redesigning. My expertise lies majorly in product design. I believe each project is multi-layered and my skill lies in managing these layers qualitatively. The projects shown on this website offer a glimpse into such different layers, primarily, technology, design, and sustainability.</div>
+            <p>
+              I was born in India, a land driven by culture, diversity, and
+              innovation. My vision is shaped by these core principles of my
+              country which are also reflected in my projects. I attribute my
+              primary characteristics of self-reliance and problem solving to my
+              curiosity and quest for making an impact. All my projects
+              highlight the same by finding solutions to relevant and real
+              problems which people face on a daily basis, whilst adding my
+              personal flair. Having lived in Edinburgh and London, as well, I
+              have further been able to develop a global perspective which
+              allows me to look at a challenge from various lenses.
+            </p>
+            <div>
+              {" "}
+              Having created a strong theoretical base in Mechanical and
+              Electrical Engineering during my time at the University of
+              Edinburgh, I got the opportunity to solidify my knowledge and use
+              the principles of divergent thinking to innovate unique design
+              concepts and products at Imperial College London. My current
+              degree also equips me with the academic and real-life skills which
+              are essential for the growth of an Engineer and has helped me
+              develop important insights into reverse engineering and
+              redesigning. My expertise lies majorly in product design. I
+              believe each project is multi-layered and my skill lies in
+              managing these layers qualitatively. The projects shown on this
+              website offer a glimpse into such different layers, primarily,
+              technology, design, and sustainability.
+            </div>
           </div>
         </div>
         <div className="col-md-5">
           <img
+            className="img-fluid_mohit"
             src="https://i.ibb.co/sjtwPTc/Mohit.jpg"
             height="70%"
             alt="Mohit"
-
           />
           {/* <div className="container contact" id="contact"  style={{width:"84%",backgroundColor:"white"}}  >
       <span>
@@ -93,10 +113,10 @@ const MoreAbout = () => {
         </a>
       </span>
     </div> */}
-    <Contact  val={val} width={width} />
+          <Contact val={val} width={width} />
         </div>
       </div>
-      <Link to="/" className="homepage_btn_other" >
+      <Link to="/" className="homepage_btn_other">
         Home Page
       </Link>
     </div>
