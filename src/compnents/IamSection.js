@@ -19,7 +19,7 @@ const IamSection = () => {
           </span>
         </div>
       </div>
-      <a href="#project" style={{ color: "white" }}>
+      <a href="#project" style={{ color: "white" }} className="bottom_arrow" >
         <svg
           style={{ marginTop: "19rem" }}
           xmlns="http://www.w3.org/2000/svg"

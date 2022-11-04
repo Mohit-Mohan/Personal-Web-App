@@ -7,9 +7,9 @@ const Project1 = () => {
       <div className="starting_img_text">
         <h1>Imperial Dice Chess</h1>
         
-        <div class="row " style={{ padding: "50px" }}>
+        <div class="row mob_css " style={{ padding: "50px" }}>
           <div class="col-6 ">
-            <img src="https://i.ibb.co/KsV2WPs/C2-Dragon-Sicilian.png" alt="" />
+            <img className="img-fluid"  src="https://i.ibb.co/KsV2WPs/C2-Dragon-Sicilian.png" alt="" />
           </div>
           <div class="col-6 starting_text ">
           imagine/ Dragons on a chess board, game of thrones style, creative, regal, magical, cinematic and volumetric lighting, 8k, hyper-realistic and detailed, <br /> --ar 16:9
@@ -18,8 +18,9 @@ const Project1 = () => {
       </div>
 
       <div className="project1_img1" />
-      <div className="video_project1" style={{backgroundColor:"black",paddingTop:"5%"}}>
-        <iframe
+      <div className="video_project1 " style={{backgroundColor:"black",paddingTop:"5%"}}>
+        <iframe 
+        
           width="500"
           height="400"
           src="https://www.youtube.com/embed/msdfXwnIDyc"
@@ -51,7 +52,7 @@ const Project1 = () => {
           <img src="https://i.ibb.co/b2cV3c6/ss1.jpg" alt="ss1" border="0" />
         </div>
         <div class="col-4">
-          <img src="https://i.ibb.co/QQPjxZd/ss2.jpg" alt="ss2" border="0" />
+          <img   src="https://i.ibb.co/QQPjxZd/ss2.jpg" alt="ss2" border="0" />
         </div>
       </div>
       <div className="text_github">
