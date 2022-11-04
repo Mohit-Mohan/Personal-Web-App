@@ -6,9 +6,9 @@ const Project2 = () => {
       <div className="starting_img_text">
         <h1>Vehicle Insurance Fraud Detection Model</h1>
         
-        <div class="row " style={{ padding: "50px" }}>
+        <div class="row mob_css " style={{ padding: "50px" }}>
           <div class="col-6 ">
-            <img src="https://i.ibb.co/K75r6J3/DS-Dragon-Lavarys.png" alt="" />
+            <img className="img-fluid" src="https://i.ibb.co/K75r6J3/DS-Dragon-Lavarys.png" alt="" />
           </div>
           <div class="col-6 starting_text ">
           imagine/ A dragon in the middle of a road, with cars on his sides, some broken some fine. Highly detailed, Stunning, Intricate Unreal engine, Octane render, wide angle, 8k, warm cinematic light, --ar 16:9
@@ -29,7 +29,7 @@ const Project2 = () => {
             </a>
       </div>
       <div className="project2_img1" src="" alt="" />
-      <div style={{backgroundColor:"black",color:"white",padding:"5%"}}>
+      <div style={{backgroundColor:"black",color:"white",padding:"5%",marginBottom:"-1px"}}>
       An effort to tune the hyperparameter ‘C’ was made on the validation data set using all 25
 features available.
 When the value of C was very large (10000) the penalty for overfitting was minimal and all
@@ -45,7 +45,7 @@ parameter sensitivity. A complete drop guide of features and their accuracies is
     <div style={{backgroundColor:"black",color:"white"}} >
 
       <div>
-      <img src="https://i.ibb.co/pP19MRD/Screenshot-2022-10-23-021252.png" alt="Screenshot-2022-10-23-021252" border="0" style={{marginBlock:"5%"}} ></img>
+      <img  src="https://i.ibb.co/pP19MRD/Screenshot-2022-10-23-021252.png" alt="Screenshot-2022-10-23-021252" border="0" style={{maxWidth:"95%",marginBlock:"5%"}} ></img>
       </div>
       <div className="text_center" style={{marginBottom:"5%"}}>
       The further tuned final value of C=1.52 was chosen as the right fit
@@ -67,7 +67,7 @@ the right fit was achieved. The results of the validation vs test set are shown 
     </div>
 
     <div>
-    <img src="https://i.ibb.co/6RrkP94/Screenshot-2022-10-23-022359.png" alt="Screenshot-2022-10-23-022359" border="0" style={{marginTop:"5%"}} /> 
+    <img className="img-fluid" src="https://i.ibb.co/6RrkP94/Screenshot-2022-10-23-022359.png" alt="Screenshot-2022-10-23-022359" border="0" style={{marginTop:"5%",maxWidth:"95%"}} /> 
        </div>
 
     <div className="text_center" style={{paddingBottom:"5%"}}>

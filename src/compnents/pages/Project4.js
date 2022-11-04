@@ -8,9 +8,9 @@ const Project4 = () => {
       <div className="starting_img_text_white_bg">
         <h1>Blok 1, Music in 3D</h1>
         
-        <div class="row " style={{ padding: "50px" }}>
+        <div class="row mob_css" style={{ padding: "50px" }}>
           <div class="col-6 ">
-            <img src="https://i.ibb.co/yVrBk38/IDE-Dragon-Waeve.png" alt="" />
+            <img  className="img-fluid" src="https://i.ibb.co/yVrBk38/IDE-Dragon-Waeve.png" alt="" />
           </div>
           <div class="col-6 starting_text ">
           imagine/ Magical cute dragon in sleek white colours, vibing to music, with music notes on purple, orange, pink coloured blocks, dynamic pose, Extreme detailed, intricate details, correct anatomy, magical light in the background, Unreal engine, Pixar. Octane render, wide angle, 8k, cinematic light, --ar 16:9

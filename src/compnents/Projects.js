@@ -10,6 +10,7 @@ const Projects = () => {
           color: "white",
           paddingTop: "3rem",
         }}
+        className="project_title"
       >
         PROJECTS
       </h2>
@@ -21,7 +22,7 @@ const Projects = () => {
               <span className="img1">
                 <Link to="/allprojects/project1">
                   <img
-                  className="project_img"
+                  className="project_img img-fluid"
                     src="https://i.ibb.co/KsV2WPs/C2-Dragon-Sicilian.png"
                     alt=""
                   />
@@ -33,7 +34,7 @@ const Projects = () => {
               <span className="img1">
                 <Link to="/allprojects/project2">
                   <img 
-                  className="project_img"
+                  className="project_img img-fluid"
                     src="https://i.ibb.co/K75r6J3/DS-Dragon-Lavarys.png"
                     alt=""
                   />
@@ -46,7 +47,7 @@ const Projects = () => {
               <span className="img2">
                 <Link to="/allprojects/project3">
                   <img
-                  className="project_img"
+                  className="project_img img-fluid"
                     src="https://i.ibb.co/zHD06dn/SDE-Dragon-Penelope.png"
                     alt=""
                   />
@@ -58,7 +59,7 @@ const Projects = () => {
               <span className="img2">
                 <Link to="/allprojects/project4">
                   <img
-                  className="project_img"
+                  className="project_img img-fluid"
                     src="https://i.ibb.co/yVrBk38/IDE-Dragon-Waeve.png"
                     alt=""
                   />

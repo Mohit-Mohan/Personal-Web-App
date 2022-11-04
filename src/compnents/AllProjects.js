@@ -22,7 +22,7 @@ const AllProjects = () => {
               <span className="img1">
                 <Link to="/allprojects/project1">
                   <img
-                  className="project_img"
+                  className="project_img img-fluid"
                     src="https://i.ibb.co/KsV2WPs/C2-Dragon-Sicilian.png"
                     alt=""
                   />
@@ -34,7 +34,7 @@ const AllProjects = () => {
               <span className="img1">
                 <Link to="/allprojects/project2">
                   <img 
-                  className="project_img"
+                  className="project_img img-fluid"
                     src="https://i.ibb.co/K75r6J3/DS-Dragon-Lavarys.png"
                     alt=""
                   />
@@ -47,7 +47,7 @@ const AllProjects = () => {
               <span className="img2">
                 <Link to="/allprojects/project3">
                   <img
-                  className="project_img"
+                  className="project_img img-fluid"
                     src="https://i.ibb.co/zHD06dn/SDE-Dragon-Penelope.png"
                     alt=""
                   />
@@ -59,7 +59,7 @@ const AllProjects = () => {
               <span className="img2">
                 <Link to="/allprojects/project4">
                   <img
-                  className="project_img"
+                  className="project_img img-fluid"
                     src="https://i.ibb.co/yVrBk38/IDE-Dragon-Waeve.png"
                     alt=""
                   />
@@ -70,7 +70,7 @@ const AllProjects = () => {
             <div class="col projects_col">
               <span className="img3">
                 <img
-                className="project_img"
+                className="project_img img-fluid"
                   src="https://i.ibb.co/PDy92vT/PMAT-Dragon-Drall-E.png"
                   alt=""
                 />
@@ -80,7 +80,7 @@ const AllProjects = () => {
             <div class="col projects_col">
               <span className="img3">
                 <img
-                className="project_img"
+                className="project_img img-fluid"
                   src="https://i.ibb.co/wMY1Yk6/TF-Dragon-Batter.png"
                   alt=""
                 />

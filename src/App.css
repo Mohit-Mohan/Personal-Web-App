@@ -240,7 +240,132 @@
 
 @media(max-width:767px)
 {
-  .App{
+  /* .App{
     display: none;
+  } */
+
+  .nav_css{
+    width: 100%;
+    padding:0px;
+    padding-top: 10px;
+  }
+  .name{
+    font-size: 1.3rem;
+  }
+  .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    justify-content: center;
+  }
+  .IamSection{
+    margin-left: 1rem;
+  }
+  .IamSection_css{
+    font-size: 2.8rem;
+    margin-top: 13rem;
+  }
+  .IamSection_css div{
+    left: 9%;
+  }
+
+  .bottom_arrow{
+    position: inherit;
+  }
+  .bottom_arrow svg{
+    margin-top:25rem !important;
+  }
+
+  .FirstSection_css{
+    height: 50rem;
+  }
+  .project_title{
+    font-size: 2rem !important;
+  }
+
+  .row{
+    display: block;
+  }
+  .project_css{
+    padding-left: 0%;
+  }
+  .projects_col{
+    padding-left: 0px;
+  }
+  .img-fluid{
+    max-width: 223%;
+    height: auto;
+  }
+
+  .github_token{
+    max-width: 70%;
+
+  }
+  .token{
+    padding: 2rem;
+    margin-block: -1px;
+  }
+  .about{
+    margin-top: -1px;
+  }
+  #project{
+    margin-bottom: -1px;
+  }
+  .about_the_website_text{
+    padding-left: 1rem;
+    text-align: center !important;
+  }
+
+  .contact{
+    display: flex;
+    justify-content: space-around;
+    padding-block: 5px;
+  }
+  .mob_css{
+    padding: 0px !important;
+  }
+  .starting_img_text{
+    margin-bottom: -1px;
+
+  }
+  .starting_img_text h1, .starting_img_text_white_bg h1{
+    padding: 10px;
+  }
+  .starting_text{
+    width: 100%;
+    padding: 2rem;
+  }
+  .video_project1, .brief_text,.project_images{
+    margin-bottom: -1px;
+  }
+  .video_project1 iframe{
+    width: 350px;
+    height: 350px;
+  
+  }
+  .project_images .col-4
+  {
+    width: 100%;
+  }
+  .multi_phone{
+    width: 100%;
+  }
+  .app_interface_text{
+    padding-left: 25px !important;
+    width: 100%;
+  }
+  .img_css_text{
+    text-align: left;
+    padding-left: 15px;
+  }
+  .text_center{
+    width: 100% !important;
+    margin-inline: 0% !important;
+    padding-inline: 15px !important;
+    text-align: left;
+  }
+  .brief_text_white_bg{
+    text-align: left;
+    padding-left: 15px !important;
+  }
+  .img-fluid_css{
+    width: 215% !important;
   }
 }
