@@ -321,12 +321,36 @@
     background-repeat: no-repeat !important;
   }
 
+  .project2_img2{
+    background: url(https://i.ibb.co/2n2gK8f/cifdm.png) !important;
+    min-height: 300px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+  .project2_img1{
+    background: url(https://i.ibb.co/BnBdRgc/ds12.png) !important ;
+    min-height: 300px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+  .project2_img3{
+    background: url(https://i.ibb.co/g9zrJhn/DS23242524.png) !important;
+        min-height: 300px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+  .project2_img1_text{
+    padding-left: 35px !important;
+    text-align: left;
+  }
   .github_token{
     max-width: 70%;
 
   }
+  
+
   .token{
-    padding: 2rem;
+    /* padding: 2rem; */
     margin-block: -1px;
   }
   .about{
@@ -362,6 +386,7 @@
   .video_project1, .brief_text,.project_images{
     margin-bottom: -1px;
   }
+
   .video_project1 iframe{
     width: 350px;
     height: 350px;
@@ -387,6 +412,15 @@
     margin-inline: 0% !important;
     padding-inline: 15px !important;
     text-align: left;
+  }
+
+  .text{
+    padding-left: 35px !important;
+    padding-inline: 0px;
+  }
+
+  .brief_text{
+    padding-left: 35px !important;
   }
   .brief_text_white_bg{
     text-align: left;
