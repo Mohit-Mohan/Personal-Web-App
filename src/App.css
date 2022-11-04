@@ -294,6 +294,33 @@
     height: auto;
   }
 
+  .parallax{
+    background: url(https://i.ibb.co/g3gFtTQ/abg1.png);
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .parallax2{
+    background: url(https://i.ibb.co/ZBdhnPG/abg3.png);
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+  .project1_img1{
+    background: url(https://i.ibb.co/Qnj788x/grid-0-1.png) !important;
+    min-height: 300px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+
+  }
+  .project_img2{
+    background: url(https://i.ibb.co/wsYVZH4/grid-0-2.png) !important;
+    min-height: 300px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+
   .github_token{
     max-width: 70%;
 
