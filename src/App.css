@@ -6,27 +6,26 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-
-
 }
 
-.logo{
+.logo {
   border: 8px solid orange;
-    border-radius: 50%;
-    
+  border-radius: 50%;
 }
-
 
 .logo {
   animation-name: flip_animation;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  
 }
 
 @keyframes flip_animation {
-  from {transform: rotateY(0deg);}
-  to {transform: rotateY(360deg);}
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -121,7 +120,7 @@
   position: relative;
 }
 
-.allprojects_img{
+.allprojects_img {
   position: absolute;
   inset: 0;
   display: none;
@@ -130,19 +129,14 @@
   color: white;
 }
 
-
-.projects_col:hover .allprojects_img{
+.projects_col:hover .allprojects_img {
   display: flex;
   cursor: pointer;
 }
 
-.projects_col:hover .project_img
-{
-  
+.projects_col:hover .project_img {
   opacity: 0.5;
 }
-
-
 
 .parallax {
   background: url("https://i.ibb.co/g3gFtTQ/abg1.png");
@@ -226,211 +220,234 @@
   }
 } */
 
-
-.about_the_website_text{
+.about_the_website_text {
   text-align: left;
   padding-left: 5rem;
 }
-.about_the_creator_text{
+.about_the_creator_text {
   text-align: left;
   padding-left: 2rem;
 }
 
-
-
-@media(max-width:767px)
-{
+@media (max-width: 767px) {
   /* .App{
     display: none;
   } */
 
-  .nav_css{
+  .nav_css {
     width: 100%;
-    padding:0px;
+    padding: 0px;
     padding-top: 10px;
   }
-  .name{
+  .name {
     font-size: 1.3rem;
   }
-  .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+  .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar > .container-lg,
+  .navbar > .container-md,
+  .navbar > .container-sm,
+  .navbar > .container-xl,
+  .navbar > .container-xxl {
     justify-content: center;
   }
-  .IamSection{
+  .IamSection {
     margin-left: 1rem;
   }
-  .IamSection_css{
+  .IamSection_css {
     font-size: 2.8rem;
     margin-top: 13rem;
   }
-  .IamSection_css div{
+  .IamSection_css div {
     left: 9%;
   }
 
-  .bottom_arrow{
+  .bottom_arrow {
     position: inherit;
   }
-  .bottom_arrow svg{
-    margin-top:25rem !important;
+  .bottom_arrow svg {
+    margin-top: 25rem !important;
   }
 
-  .FirstSection_css{
+  .FirstSection_css {
     height: 50rem;
   }
-  .project_title{
+  .project_title {
     font-size: 2rem !important;
   }
 
-  .row{
+  .row {
     display: block;
   }
-  .project_css{
+  .project_css {
     padding-left: 0%;
   }
-  .projects_col{
+  .projects_col {
     padding-left: 0px;
   }
-  .img-fluid{
+  .img-fluid {
     max-width: 223%;
     height: auto;
   }
 
-  .parallax{
+  .parallax {
     background: url(https://i.ibb.co/g3gFtTQ/abg1.png);
     min-height: 300px;
     background-position: center;
     background-repeat: no-repeat;
   }
-  .parallax2{
+  .parallax2 {
     background: url(https://i.ibb.co/ZBdhnPG/abg3.png);
     min-height: 300px;
     background-position: center;
     background-repeat: no-repeat;
-
   }
-  .project1_img1{
+  .project1_img1 {
     background: url(https://i.ibb.co/Qnj788x/grid-0-1.png) !important;
     min-height: 300px !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-
   }
-  .project_img2{
+  .project_img2 {
     background: url(https://i.ibb.co/wsYVZH4/grid-0-2.png) !important;
     min-height: 300px !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
   }
 
-  .project2_img2{
+  .project2_img2 {
     background: url(https://i.ibb.co/2n2gK8f/cifdm.png) !important;
     min-height: 300px !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
   }
-  .project2_img1{
+  .project2_img1 {
     background: url(https://i.ibb.co/BnBdRgc/ds12.png) !important ;
     min-height: 300px !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
   }
-  .project2_img3{
+  .project2_img3 {
     background: url(https://i.ibb.co/g9zrJhn/DS23242524.png) !important;
-        min-height: 300px !important;
+    min-height: 300px !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
   }
-  .project2_img1_text{
+
+  .project3_img1 {
+    background: url(https://i.ibb.co/TkYL91T/sdes.png) !important;
+
+    min-height: 300px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+  .project3_img2 {
+    background: url(https://i.ibb.co/FsW4C4w/sdes12.png) !important;
+    min-height: 300px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+  .project3_img3{
+    background: url(https://i.ibb.co/zJWgwQF/sdsessese.png) !important;
+    min-height: 300px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+  .project2_img1_text {
     padding-left: 35px !important;
     text-align: left;
   }
-  .github_token{
+  .github_token {
     max-width: 70%;
     height: auto;
-
   }
-  
 
-  .token{
+  .token {
     /* padding: 2rem; */
     margin-block: -1px;
   }
-  .about{
+  .about {
     margin-top: -1px;
   }
-  #project{
+  #project {
     margin-bottom: -1px;
   }
-  .about_the_website_text{
+  .about_the_website_text {
     padding-left: 1rem;
     text-align: center !important;
   }
 
-  .contact{
+  .contact {
     display: flex;
     justify-content: space-around;
     padding-block: 5px;
   }
-  .mob_css{
+  .mob_css {
     padding: 0px !important;
   }
-  .starting_img_text{
+  .starting_img_text {
     margin-bottom: -1px;
-
   }
-  .starting_img_text h1, .starting_img_text_white_bg h1{
+  .starting_img_text h1,
+  .starting_img_text_white_bg h1 {
     padding: 10px;
   }
-  .starting_text{
+  .starting_text {
     width: 100%;
     padding: 2rem;
   }
-  .video_project1, .brief_text,.project_images{
+  .video_project1,
+  .brief_text,
+  .project_images {
     margin-bottom: -1px;
   }
 
-  .video_project1 iframe{
+  .video_project1 iframe {
     width: 350px;
     height: 350px;
-  
   }
-  .project_images .col-4
-  {
+  .project_images .col-4 {
     width: 100%;
   }
-  .multi_phone{
+  .multi_phone {
     width: 100%;
   }
-  .app_interface_text{
+  .app_interface_text {
     padding-left: 25px !important;
     width: 100%;
   }
-  .img_css_text{
-    text-align: left;
-    padding-left: 15px;
+
+  .app_interface_text  div{
+    padding-inline: 35px !important;
   }
-  .text_center{
+  .img_css_text {
+    text-align: left;
+    padding-inline: 35px;
+  }
+  .text_center {
     width: 100% !important;
     margin-inline: 0% !important;
-    padding-inline: 15px !important;
+    padding-inline: 35px !important;
     text-align: left;
   }
 
-  .text{
+  .text {
     padding-left: 35px !important;
     padding-inline: 0px;
   }
 
-  .brief_text{
+  .brief_text {
     padding-left: 35px !important;
   }
-  .brief_text_white_bg{
+  .brief_text_white_bg {
     text-align: left;
-    padding-left: 15px !important;
+    padding-left: 35px !important;
+
   }
-  .img-fluid_css{
+  .img-fluid_css {
     width: 215% !important;
   }
-  .img-fluid_mohit{
+  .img-fluid_mohit {
     width: 100% !important;
   }
 }
