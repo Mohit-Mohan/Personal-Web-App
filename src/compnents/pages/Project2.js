@@ -29,7 +29,7 @@ const Project2 = () => {
             </a>
       </div>
       <div className="project2_img1" src="" alt="" />
-      <div className="project2_img1_text" style={{backgroundColor:"black",color:"white",padding:"5%",marginBottom:"-1px"}}>
+      <div className="project2_img1_text brief_text" style={{backgroundColor:"black",color:"white",padding:"5%",marginBottom:"-1px"}}>
       An effort to tune the hyperparameter ‘C’ was made on the validation data set using all 25
 features available.
 When the value of C was very large (10000) the penalty for overfitting was minimal and all
@@ -47,7 +47,7 @@ parameter sensitivity. A complete drop guide of features and their accuracies is
       <div>
       <img  src="https://i.ibb.co/pP19MRD/Screenshot-2022-10-23-021252.png" alt="Screenshot-2022-10-23-021252" border="0" style={{maxWidth:"95%",marginBlock:"5%"}} ></img>
       </div>
-      <div className="text_center text" style={{marginBottom:"5%"}}>
+      <div className="text_center text brief_text" style={{marginBottom:"5%"}}>
       The further tuned final value of C=1.52 was chosen as the right fit
       for the model and the features that were analysed to be not statistically significant (4) were
       “Compact Vehicles, Medium Vehicles, Gray Vehicles and Other Coloured Vehicles”.
@@ -60,7 +60,7 @@ parameter sensitivity. A complete drop guide of features and their accuracies is
 
     <div className="project2_img3"></div>
 
-    <div className="text_center text">
+    <div className="text_center  brief_text">
     A lasso regression was done using the remaining 21 features analysed. After conducting this
 analysis on the training and validation sets, an analysis was conducted on the test set to check if
 the right fit was achieved. The results of the validation vs test set are shown below.
@@ -70,7 +70,7 @@ the right fit was achieved. The results of the validation vs test set are shown 
     <img className="img-fluid" src="https://i.ibb.co/6RrkP94/Screenshot-2022-10-23-022359.png" alt="Screenshot-2022-10-23-022359" border="0" style={{marginTop:"5%",maxWidth:"95%"}} /> 
        </div>
 
-    <div className="text_center text "  style={{paddingBottom:"5%"}}>
+    <div className="text_center  brief_text"  style={{paddingBottom:"5%"}}>
     The model performed sufficiently on the test set with an accuracy discrepancy of only 0.31%.
 The recall was slightly lower than the validation set (5.8%) but marginally higher than the
 training set (2.0%). However, the precision was the highest for the test set by 3.9% and
