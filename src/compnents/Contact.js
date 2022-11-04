@@ -1,8 +1,8 @@
 import React from "react";
 
-const Contact = ({val,width}) => {
+const Contact = ({ val, width }) => {
   return (
-    <div className="container contact " id="contact"   >
+    <div className="container contact " id="contact">
       <span>
         <a href="https://www.linkedin.com/in/mohit-mohan1/" target="blank">
           <svg
@@ -19,7 +19,11 @@ const Contact = ({val,width}) => {
         </a>
       </span>
       <span>
-        <a href="mailto:" style={{ color: "black" }}>
+        <a
+          href="mailto:mohit.mohan20@imperial.ac.uk
+"
+          style={{ color: "black" }}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="36"
