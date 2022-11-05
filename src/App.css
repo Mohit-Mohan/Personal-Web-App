@@ -441,7 +441,7 @@
   }
   .brief_text_white_bg {
     text-align: left;
-    padding-inline: 35px !important;
+    /* padding-inline: 35px !important; */
 
   }
   .img-fluid_css {
