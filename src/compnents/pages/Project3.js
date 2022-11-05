@@ -120,7 +120,7 @@ const Project3 = () => {
           />
         </div>
 
-        <div className=" brief_text_white_bg">
+        <div className="  iphone_pad">
           To source the materials & components from suppliers to manufacture the
           product, we researched several locations & found these spots in the
           UK. Using analytical material selection, the kit delays obsolescence
