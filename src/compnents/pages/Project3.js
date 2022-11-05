@@ -73,7 +73,7 @@ const Project3 = () => {
           />
         </div>
 
-        <div className="img_css_text">
+        <div className="brief_text_white_bg">
           Acknowledging the unique journeys of each user, a complete journey map
           with diverse entry points was created.
         </div>
@@ -100,7 +100,7 @@ const Project3 = () => {
               style={{ marginBlock: "0rem" }}
             />
           </div>
-          <div class="col-5 app_interface_text ">
+          <div class="col-5 app_interface_text brief_text_white_bg">
             <div>
               With the service, the customers have access to online help through
               a website or app. It can aid the user journey towards a successful
@@ -120,7 +120,7 @@ const Project3 = () => {
           />
         </div>
 
-        <div className="text_center">
+        <div className=" brief_text_white_bg">
           To source the materials & components from suppliers to manufacture the
           product, we researched several locations & found these spots in the
           UK. Using analytical material selection, the kit delays obsolescence
@@ -136,7 +136,7 @@ const Project3 = () => {
           />{" "}
         </div>
 
-        <div className="text_center">
+        <div className=" brief_text_white_bg">
           Two cases for the calculation of Embodied Energy and Carbon Footprint
           were taken. Taking best case scenario with recycling (& no discrete
           delivery), and with discrete delivery and minimum recyclability

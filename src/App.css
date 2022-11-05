@@ -418,7 +418,7 @@
   }
 
   .app_interface_text  div{
-    padding-inline: 35px !important;
+    /* padding-inline: 35px !important; */
   }
   .img_css_text {
     text-align: left;
