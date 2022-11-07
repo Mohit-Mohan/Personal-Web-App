@@ -62,7 +62,7 @@
 }
 
 .name:hover {
-  color: rgb(156, 149, 149);
+  color: white
 }
 
 .navbarNav_css {
@@ -82,6 +82,7 @@
 }
 
 .nav_css {
+  background-color: black;
   width: 70%;
   margin: 0 auto;
   padding: 50px;
@@ -241,6 +242,8 @@
   }
   .name {
     font-size: 1.3rem;
+    text-align: center;
+    margin: 0px auto;
   }
   .navbar > .container,
   .navbar > .container-fluid,
@@ -266,7 +269,7 @@
     position: inherit;
   }
   .bottom_arrow svg {
-    margin-top: 25rem !important;
+    margin-top: 23rem !important;
   }
 
   .FirstSection_css {
@@ -453,4 +456,14 @@
   .iphone_pad{
     padding-inline: 35px !important;
   }
+  .navbar-toggler{
+    background-color: #6b6767;
+  }
+  .navbar-nav{
+    padding-top: 5px;
+  }
+/*   
+.name:hover {
+  color: white
+} */
 }
