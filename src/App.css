@@ -235,6 +235,18 @@
     display: none;
   } */
 
+  
+    .allprojects_img {
+      width: 200%;
+      position: absolute;
+      inset: 0;
+      display: none;
+      justify-content: center;
+      align-items: center;
+      color: white;
+  }
+  
+
   .nav_css {
     width: 100%;
     padding: 0px;
