@@ -68,23 +68,27 @@ const AllProjects = () => {
               </span>
             </div>
             <div className="col projects_col">
-              <span className="img3">
-                <img
-                className="project_img img-fluid"
-                  src="https://i.ibb.co/PDy92vT/PMAT-Dragon-Drall-E.png"
-                  alt=""
-                />
-                <span className="allprojects_img" >Coming Soon...</span>
+              <span className="img2">
+                <Link to="/allprojects/TandemBicycle">
+                  <img
+                  className="project_img img-fluid"
+                  src="https://i.ibb.co/kyTsp7Y/FEA-Dragon-Fluffy.png"
+                    alt=""
+                  />
+                  <span className="allprojects_img">FEA of a Tandem Bicycle Frame</span>
+                </Link>
               </span>
             </div>
             <div className="col projects_col">
               <span className="img3">
+              <Link to="/allprojects/Batmobile">
                 <img
                 className="project_img img-fluid"
                   src="https://i.ibb.co/wMY1Yk6/TF-Dragon-Batter.png"
                   alt=""
                 />
-                <span className="allprojects_img" >Coming Soon...</span>
+                <span className="allprojects_img" >Vehicle Aerodynamics - The Batmobile</span>
+                </Link>
               </span>
             </div>
 
@@ -104,7 +108,7 @@ const AllProjects = () => {
                
                   <img
                   className="project_img img-fluid"
-                  src="https://i.ibb.co/kyTsp7Y/FEA-Dragon-Fluffy.png"
+                  src="https://i.ibb.co/PDy92vT/PMAT-Dragon-Drall-E.png"
                    alt=""
                   />
                   <span className="allprojects_img">Coming Soon...</span>

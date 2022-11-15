@@ -13,6 +13,8 @@ import Imperialdicechess from "./components/pages/Imperialdicechess";
 import VIFDM from "./components/pages/VIFDM";
 import Rebirth from "./components/pages/Rebirth";
 import Blok1 from "./components/pages/Blok1";
+import TandemBicycle from "./components/pages/TandemBicycle";
+import Batmobile from "./components/pages/Batmobile";
 
 
 import "./AllProjects.css";
@@ -55,6 +57,8 @@ function App() {
           <Route path="/allprojects/VIFDM" element={<VIFDM />} />
           <Route path="/allprojects/Rebirth" element={<Rebirth />} />
           <Route path="/allprojects/Blok1" element={<Blok1 />} />
+          <Route path="/allprojects/TandemBicycle" element={<TandemBicycle />} />
+          <Route path="/allprojects/Batmobile" element={<Batmobile />} />
 
         </Routes>
         <Routes>
