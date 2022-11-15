@@ -51,6 +51,40 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.bm_img1{
+  background: url("https://i.ibb.co/YRKnW7s/bm3.png");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bm_img2{
+  background: url("https://i.ibb.co/5r0rxyc/bm1.png");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bm_img3{
+  background: url("https://i.ibb.co/HCtWGFc/bm4.png");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bm_img4{
+  background: url("https://i.ibb.co/ph41Yrq/bm2.png");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .github_link {
   color: white;
   background-color: black;
@@ -183,6 +217,23 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.tb_img1{
+    background: url("https://i.ibb.co/XpjvhK1/1.png") !important;
+    min-height: 500px;
+    background-attachment: fixed !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+  }
+ 
+  .tb_img2{
+    background: url("https://i.ibb.co/s2JNbrC/4.png") !important;
+    min-height: 500px;
+    background-attachment: fixed !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+  }
 
 .img_center{
   display: block;

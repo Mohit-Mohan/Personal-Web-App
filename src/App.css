@@ -203,24 +203,6 @@
   text-align: inherit;
 }
 
-/* .IamSection::before {
-  content: "";
-  position: relative;
-  animation: IamSection 6s linear infinite;
-} */
-
-/* @keyframes IamSection {
-  25% {
-    content: "Gamer";
-  }
-  50% {
-    content: "Maker";
-  }
-  75% {
-    content: "Thinker";
-  }
-} */
-
 .about_the_website_text {
   text-align: left;
   padding-left: 5rem;
@@ -329,7 +311,31 @@
     background-position: center !important;
     background-repeat: no-repeat !important;
   }
+  .bm_img2{
+    background: url("https://i.ibb.co/5r0rxyc/bm1.png") !important;
+    min-height: 300px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+  .bm_img1{
+    background: url("https://i.ibb.co/YRKnW7s/bm3.png")!important;
+    min-height: 300px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
 
+  .bm_img4{
+    background: url("https://i.ibb.co/ph41Yrq/bm2.png") !important;
+    min-height: 300px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+  .bm_img3{
+    background: url("https://i.ibb.co/MBKWSFT/bm5.png")!important;
+    min-height: 300px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
   .project2_img2 {
     background: url(https://i.ibb.co/2n2gK8f/cifdm.png) !important;
     min-height: 300px !important;
@@ -376,7 +382,7 @@
     max-width: 70%;
     height: auto;
   }
-
+ 
   .token {
     /* padding: 2rem; */
     margin-block: -1px;
