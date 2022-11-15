@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <>
-    <nav class="navbar navbar-expand-lg nav_css ">
-        <div class="container-fluid">
-          <span class="navbar-brand name col-md-6" to="/">
+    <nav className="navbar navbar-expand-lg nav_css ">
+        <div className="container-fluid">
+          <span className="navbar-brand name col-md-6" to="/">
             MOHIT MOHAN
           </span>
 
           {/* <span className="name">MOHIT MOHAN </span> */}
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -19,28 +19,28 @@ const Nav = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           {/* <div
-              class="collapse navbar-collapse"
+              className="collapse navbar-collapse"
               id="navbarNav"
               className="navbarNav_css"
             > */}
-          <div class="collapse navbar-collapse col-md-6" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              {/* <ul class="navbar-nav"> */}
-              <li class="nav-item">
-                <Link to="/allprojects" class="nav-link " aria-current="page">
+          <div className="collapse navbar-collapse col-md-6" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              {/* <ul className="navbar-nav"> */}
+              <li className="nav-item">
+                <Link to="/allprojects" className="nav-link " aria-current="page">
                   PROJECTS
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link to="/about" class="nav-link " aria-current="page">
+              <li className="nav-item">
+                <Link to="/about" className="nav-link " aria-current="page">
                   ABOUT
                 </Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#contact">
+              <li className="nav-item">
+                <a className="nav-link " aria-current="page" href="#contact">
                   CONTACT
                 </a>
               </li>

@@ -1,21 +1,22 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Projects from "./compnents/Projects";
-import Background from "./compnents/Background";
-import About from "./compnents/About";
-import Contact from "./compnents/Contact";
-import AllProjects from "./compnents/AllProjects";
-import Nav from "./compnents/Nav";
-import IamSection from "./compnents/IamSection";
-import MoreAbout from "./compnents/MoreAbout";
-import Project1 from "./compnents/pages/Project1";
-import Project2 from "./compnents/pages/Project2";
-import Project3 from "./compnents/pages/Project3";
-import Project4 from "./compnents/pages/Project4";
+import Projects from "./components/Projects";
+import Background from "./components/Background";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import AllProjects from "./components/AllProjects";
+import Nav from "./components/Nav";
+import IamSection from "./components/IamSection";
+import MoreAbout from "./components/MoreAbout";
+import Imperialdicechess from "./components/pages/Imperialdicechess";
+import VIFDM from "./components/pages/VIFDM";
+import Rebirth from "./components/pages/Rebirth";
+import Blok1 from "./components/pages/Blok1";
+
 
 import "./AllProjects.css";
-import Footer from "./compnents/Footer";
+import Footer from "./components/Footer";
 function App() {
   let count = 1;
 
@@ -49,10 +50,12 @@ function App() {
           <Route path="/allprojects" element={<AllProjects />} />
         </Routes>
         <Routes>
-          <Route path="/allprojects/project1" element={<Project1 />} />
-          <Route path="/allprojects/project2" element={<Project2 />} />
-          <Route path="/allprojects/project3" element={<Project3 />} />
-          <Route path="/allprojects/project4" element={<Project4 />} />
+          <Route path="/allprojects/imperialdicechess" element={<Imperialdicechess />} />
+
+          <Route path="/allprojects/VIFDM" element={<VIFDM />} />
+          <Route path="/allprojects/Rebirth" element={<Rebirth />} />
+          <Route path="/allprojects/Blok1" element={<Blok1 />} />
+
         </Routes>
         <Routes>
           <Route path="/about" element={<MoreAbout />} />

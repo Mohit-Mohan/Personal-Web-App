@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Project1 = () => {
+const Imperialdicechess = () => {
   return (
     <div className="project1">
       <div className="starting_img_text">
@@ -91,4 +91,4 @@ const Project1 = () => {
   );
 };
 
-export default Project1;
+export default Imperialdicechess;
