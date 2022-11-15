@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const Project2 = () => {
+const VIFDM = () => {
   return (
     <div className="project1">
       <div className="starting_img_text">
@@ -89,4 +89,4 @@ minimize False Positives (FP), this augurs well for the model fitment.
   );
 };
 
-export default Project2;
+export default VIFDM;

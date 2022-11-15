@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-const AllProjects = () => {
+const Projects = () => {
   return (
-    <div className="container AllProjects" id="project">
+    <div className="container" id="project">
       <h2
         style={{
           marginBottom: "4rem",
@@ -11,16 +10,17 @@ const AllProjects = () => {
           color: "white",
           paddingTop: "3rem",
         }}
+        className="project_title"
       >
-        Projects
+        PROJECTS
       </h2>
 
       <div className="container project_css ">
-        <div class="container text-center">
-          <div class="row row-cols-2">
-            <div class="col projects_col">
+        <div className="container text-center">
+          <div className="row row-cols-2">
+            <div className="col projects_col">
               <span className="img1">
-                <Link to="/allprojects/project1">
+                <Link to="/allprojects/imperialdicechess">
                   <img
                   className="project_img img-fluid"
                     src="https://i.ibb.co/KsV2WPs/C2-Dragon-Sicilian.png"
@@ -30,9 +30,9 @@ const AllProjects = () => {
                 </Link>
               </span>
             </div>
-            <div class="col projects_col">
+            <div className="col projects_col">
               <span className="img1">
-                <Link to="/allprojects/project2">
+                <Link to="/allprojects/VIFDM">
                   <img 
                   className="project_img img-fluid"
                     src="https://i.ibb.co/K75r6J3/DS-Dragon-Lavarys.png"
@@ -43,9 +43,9 @@ const AllProjects = () => {
                 </Link>
               </span>
             </div>
-            <div class="col projects_col">
+            <div className="col projects_col">
               <span className="img2">
-                <Link to="/allprojects/project3">
+                <Link to="/allprojects/Rebirth">
                   <img
                   className="project_img img-fluid"
                     src="https://i.ibb.co/zHD06dn/SDE-Dragon-Penelope.png"
@@ -55,9 +55,9 @@ const AllProjects = () => {
                 </Link>
               </span>
             </div>
-            <div class="col projects_col">
+            <div className="col projects_col">
               <span className="img2">
-                <Link to="/allprojects/project4">
+                <Link to="/allprojects/Blok1">
                   <img
                   className="project_img img-fluid"
                     src="https://i.ibb.co/yVrBk38/IDE-Dragon-Waeve.png"
@@ -67,37 +67,16 @@ const AllProjects = () => {
                 </Link>
               </span>
             </div>
-            <div class="col projects_col">
-              <span className="img3">
-                <img
-                className="project_img img-fluid"
-                  src="https://i.ibb.co/PDy92vT/PMAT-Dragon-Drall-E.png"
-                  alt=""
-                />
-                <span className="allprojects_img" >Coming Soon...</span>
-              </span>
-            </div>
-            <div class="col projects_col">
-              <span className="img3">
-                <img
-                className="project_img img-fluid"
-                  src="https://i.ibb.co/wMY1Yk6/TF-Dragon-Batter.png"
-                  alt=""
-                />
-                <span className="allprojects_img" >Coming Soon...</span>
-              </span>
-            </div>
+           
           </div>
         </div>
       </div>
-      <div >
 
-      <Link to="/" className="homepage_btn_other" style={{paddingTop:"2rempx"}}>
-        Home Page
+      <Link to="/allprojects" className="view_css">
+        View More...
       </Link>
-      </div>
     </div>
   );
 };
 
-export default AllProjects;
+export default Projects;

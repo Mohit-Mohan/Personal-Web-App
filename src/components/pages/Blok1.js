@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const Project4 = () => {
+const Blok1 = () => {
   return (
     <div className="project1">
 
@@ -95,4 +95,4 @@ const Project4 = () => {
   );
 };
 
-export default Project4;
+export default Blok1;

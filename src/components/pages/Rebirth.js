@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const Project3 = () => {
+const Rebirth = () => {
   return (
     <div className="project1">
       <div className="starting_img_text_white_bg">
@@ -171,4 +171,4 @@ const Project3 = () => {
   );
 };
 
-export default Project3;
+export default Rebirth;
