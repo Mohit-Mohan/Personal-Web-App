@@ -17,7 +17,7 @@ const Blok1 = () => {
             <img className="img-fluid" src={B1} alt="" />
           </div>
           <div class="col-6 starting_text ">
-            imagine/ Magical cute dragon in sleek white colours, vibing to
+            imagine/ A Magical cute dragon in sleek white colours, vibing to
             music, with music notes on purple, orange, pink coloured blocks,
             dynamic pose, Extreme detailed, intricate details, correct anatomy,
             magical light in the background, Unreal engine, Pixar. Octane
