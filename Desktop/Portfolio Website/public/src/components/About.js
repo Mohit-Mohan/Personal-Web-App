@@ -28,7 +28,7 @@ const About = () => {
             AI-generative art and prompt engineering coupled with my admiration
             for mystical creatures, I have used images of dragons to introduce
             each project to give the readers a subtle and creative glimpse of what they can
-            expect from the project. The dragons have been created using
+            expect from the projects. The dragons have been created using
             exclusive elements which are unique to each project and a close look
             at them will help you discover the clues embedded in the images.
           </div>
