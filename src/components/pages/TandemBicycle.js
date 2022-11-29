@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import FEA2 from "../../media/FEA2.png";
-
+import FEA from "../../media/FEA_Dragon_Fluffy.png";
+import FEA1 from "../../media/FEA_bg/FEA1.png";
+import FEA2 from "../../media/FEA_bg/FEA2.png";
+import FEA3 from "../../media/FEA_bg/FEA3.png";
 const TandemBicycle = () => {
   return (
     <div className="project1">
@@ -12,7 +14,8 @@ const TandemBicycle = () => {
           <div class="col-6 ">
             <img
               className="img-fluid"
-              src="https://i.ibb.co/kyTsp7Y/FEA-Dragon-Fluffy.png"
+              // src="https://i.ibb.co/kyTsp7Y/FEA-Dragon-Fluffy.png"
+              src={FEA}
               alt=""
             />
           </div>
@@ -40,26 +43,29 @@ const TandemBicycle = () => {
         <div>
           <img
             className="img-fluid"
-            src="https://i.ibb.co/gvQrg14/FEA1.png"
+            // src="https://i.ibb.co/gvQrg14/FEA1.png"
+            src={FEA1}
             border="0"
           />
         </div>
+        <div className="tb_img3" src="" alt="" />
 
         <div>
-          <img src={FEA2} alt="hello" srcset="" />
-          {/* <img
+          {/* <img src={FEA2} alt="hello" srcset="" /> */}
+          <img
             className="img-fluid"
-           
-            src="https://i.ibb.co/KrcXLhz/FEA2.png"
-            
+            // src="https://i.ibb.co/KrcXLhz/FEA2.png"
+            src={FEA2}
             border="0"
-          /> */}
+          />
         </div>
+        <div className="tb_img4" src="" alt="" />
 
         <div>
           <img
             className=" img-fluid"
-            src="https://i.ibb.co/840c3Jg/FEA3.png"
+            // src="https://i.ibb.co/840c3Jg/FEA3.png"
+            src={FEA3}
             border="0"
             // style={{ display: "block", marginLeft: "3%" }}
           />

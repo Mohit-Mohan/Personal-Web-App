@@ -9,7 +9,7 @@
   background-color: #000;
   padding: 20px;
   max-width: 100%;
-  text-align: left;
+  text-align: center;
 }
 
 .col-4 img {
@@ -36,7 +36,7 @@
 }
 
 .project1_img1 {
-  background: url("https://i.ibb.co/Qnj788x/grid-0-1.png");
+  background: url("./media/C1_bg/grid_0\ \(1\).png");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -44,7 +44,7 @@
   background-size: cover;
 }
 .project_img2 {
-  background: url("https://i.ibb.co/wsYVZH4/grid-0-2.png");
+  background: url("./media/C1_bg/grid_0\ \(3\).png");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -52,8 +52,8 @@
   background-size: cover;
 }
 
-.bm_img1{
-  background: url("https://i.ibb.co/YRKnW7s/bm3.png");
+.bm_img1 {
+  background: url("./media//TF1_bg/drive-download-20221119T204605Z-001/new2.png");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -61,24 +61,24 @@
   background-size: cover;
 }
 
-.bm_img2{
-  background: url("https://i.ibb.co/5r0rxyc/bm1.png");
+.bm_img2 {
+  background: url("./media/TF1_bg/bm1.png");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.bm_img3{
-  background: url("https://i.ibb.co/HCtWGFc/bm4.png");
+.bm_img3 {
+  background: url("./media//TF1_bg/drive-download-20221119T204605Z-001/new1.png");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.bm_img4{
-  background: url("https://i.ibb.co/ph41Yrq/bm2.png");
+.bm_img4 {
+  background: url("./media//TF1_bg/drive-download-20221119T204605Z-001/new.png");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -100,17 +100,16 @@
   text-align: center;
 }
 
-.project2_img1{
-  background: url("https://i.ibb.co/BnBdRgc/ds12.png");
+.project2_img1 {
+  background: url("./media//DS_bg/ds12.png");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .project2_img2 {
-  background: url("https://i.ibb.co/2n2gK8f/cifdm.png");
+  background: url("./media/DS_bg/new.png");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -118,8 +117,7 @@
   background-size: cover;
 }
 
-
-.project2_img3{
+.project2_img3 {
   background: url("https://i.ibb.co/g9zrJhn/DS23242524.png");
   min-height: 500px;
   background-attachment: fixed;
@@ -127,8 +125,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
 
 .starting_img_text_white_bg {
   color: black;
@@ -146,7 +142,7 @@
 }
 
 .project3_img1 {
-  background: url("https://i.ibb.co/TkYL91T/sdes.png");
+  background: url("./media/SDE_bg/drive-download-20221119T200423Z-001/new.png");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -154,7 +150,7 @@
   background-size: cover;
 }
 .project3_img2 {
-  background: url("https://i.ibb.co/FsW4C4w/sdes12.png");
+  background: url("./media/SDE_bg/drive-download-20221119T200423Z-001/new1.png");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -166,7 +162,7 @@
 }
 
 .project4_img1 {
-  background: url("https://i.ibb.co/yybWcmX/grid-0.png");
+  background: url("./media/IDE_bg/drive-download-20221119T202128Z-001/new2.png");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -174,7 +170,7 @@
   background-size: cover;
 }
 .project4_img2 {
-  background: url("https://i.ibb.co/ZLZsb1D/Zhavorsa-Magical-cute-dragon-scales-in-sleek-white-colours-with-0235dbb5-d35e-4c17-8f95-a8ea9b2f0aee.png");
+  background: url("./media/IDE_bg/drive-download-20221119T202128Z-001/new.png");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -193,60 +189,82 @@
   padding: 10px;
 }
 
-.img_css div img{
-
+.img_css div img {
   margin-block: 5px;
   width: 100%;
   /* width: 70%; */
-
 }
 
-.project3_img3{
-  background: url("https://i.ibb.co/zJWgwQF/sdsessese.png");
+.project3_img3 {
+  background: url("./media/SDE_bg/drive-download-20221119T200423Z-001/new3.png");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.project4_img3{
-  background: url("https://i.ibb.co/0y2nMQD/IDE.png");
+.project3_img4 {
+  background: url("./media/SDE_bg/drive-download-20221119T200423Z-001/new2.png");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.tb_img1{
-    background: url("https://i.ibb.co/XpjvhK1/1.png") !important;
-    min-height: 500px;
-    background-attachment: fixed !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover !important;
-  }
- 
-  .tb_img2{
-    background: url("https://i.ibb.co/s2JNbrC/4.png") !important;
-    min-height: 500px;
-    background-attachment: fixed !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover !important;
-  }
+.project4_img3 {
+  background: url("./media/IDE_bg/drive-download-20221119T202128Z-001/new4.png");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tb_img1 {
+  background: url("./media/FEA_bg/drive-download-20221119T203457Z-001/new.png") !important;
+  min-height: 500px;
+  background-attachment: fixed !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
 
-.img_center{
+.tb_img2 {
+  background: url("./media/FEA_bg/drive-download-20221119T203457Z-001/new3.png") !important;
+  min-height: 500px;
+  background-attachment: fixed !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+.tb_img3 {
+  background: url("./media/FEA_bg/drive-download-20221119T203457Z-001/new4.png") !important;
+  min-height: 500px;
+  background-attachment: fixed !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+.tb_img4 {
+  background: url("./media/FEA_bg/drive-download-20221119T203457Z-001/new1.png") !important;
+  min-height: 500px;
+  background-attachment: fixed !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+
+.img_center {
   display: block;
   margin-left: 19%;
 }
 
-.app_interface_text{
+.app_interface_text {
   align-items: center;
   display: flex;
   text-align: left;
   padding-left: 0px;
 }
-.text_center{
+.text_center {
   width: 80%;
   display: flex;
   align-self: center;
@@ -255,13 +273,11 @@
   margin-top: 5%;
 }
 
-.homepage_btn{
+.homepage_btn {
   color: #000;
   text-decoration: none;
 }
-.homepage_btn_other{
-
-color: white;
-text-decoration: none;
-
+.homepage_btn_other {
+  color: white;
+  text-decoration: none;
 }
