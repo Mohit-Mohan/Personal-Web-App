@@ -1,5 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import birth from "../../media/SDE_Dragon_Penelope.png";
+import s1 from "../../media/SDE_bg/drive-download-20221119T200423Z-001/s1.png";
+import s2 from "../../media/SDE_bg/drive-download-20221119T200423Z-001/s2.png";
+import s3 from "../../media/SDE_bg/drive-download-20221119T200423Z-001/s3.png";
+import s4 from "../../media/SDE_bg/drive-download-20221119T200423Z-001/s4.png";
+
 const Rebirth = () => {
   return (
     <div className="project1">
@@ -10,7 +16,8 @@ const Rebirth = () => {
           <div class="col-6 ">
             <img
               className="img-fluid"
-              src="https://i.ibb.co/zHD06dn/SDE-Dragon-Penelope.png"
+              // src="https://i.ibb.co/zHD06dn/SDE-Dragon-Penelope.png"
+              src={birth}
               alt=""
             />
           </div>
@@ -39,31 +46,29 @@ const Rebirth = () => {
         </div>
       </div> */}
       <div className="brief_text_white_bg">
-        A culmination of divergent and convergent thinking, and the breaking
-        down of a pregnancy and ovulation kit with a view for sustainability and
-        human-centred design, the Rebirth multipurpose testing kit is a
-        sustainable alternative to traditional wasteful FMCG tests. It is
-        convenient to use and eliminates the scope for thoughtless disposal due
-        to the user’s emotional response to the result by simply allowing the
-        flushing of the test strip. It reduces the overall carbon footprint by
-        56% and creates a circular and unique system.
+        An advanced pregnancy and ovulation testing kit employing the principles
+        of Sustainable Design.
       </div>
       <div className="project3_img2" src="" alt="" />
 
       <div className="img_css ">
         <div>
+          <img className="img-fluid" src={s1} alt="" />
+        </div>
+
+        {/* <div>
           <img
             className="img-fluid"
             src="https://i.ibb.co/QFmvMg2/Ideation-Futures-Group-2-B-Poster.jpg"
             alt="Ideation-Futures-Group-2-B-Poster"
             border="0"
           />
-        </div>
+        </div> */}
         {/* <div>
 
       <img src="https://i.ibb.co/nRdqQK4/Group-2-B-System-Solution-Poster.jpg" alt="Group-2-B-System-Solution-Poster" border="0"/>      </div>
        */}
-        <div>
+        {/* <div>
           <img
             className="img_center"
             src="https://i.ibb.co/NZ4Dq38/exploded.png"
@@ -71,14 +76,14 @@ const Rebirth = () => {
             border="0"
             style={{ width: "70%" }}
           />
-        </div>
-
+        </div> */}
+        {/* 
         <div className="brief_text_white_bg">
           Acknowledging the unique journeys of each user, a complete journey map
           with diverse entry points was created.
-        </div>
+        </div> */}
 
-        <div>
+        {/* <div>
           <img
             className="img_centerimg-fluid img-fluid"
             src="https://i.ibb.co/tZ8yZ6x/user-journey.png"
@@ -86,11 +91,23 @@ const Rebirth = () => {
             border="0"
             style={{ display: "block", marginLeft: "3%" }}
           />
+        </div> */}
+
+        <p className="project3_img3" style={{ marginBottom: "0px" }} />
+        <div>
+          <img className="img-fluid" src={s2} alt="" />
+        </div>
+        <div>
+          <img className="img-fluid" src={s3} alt="" />
         </div>
 
-        <p className="project3_img3" />
+        <p className="project3_img4" style={{ marginBottom: "0px" }} />
 
-        <div class="row">
+        <div>
+          <img className="img-fluid" src={s4} alt="" />
+        </div>
+
+        {/* <div class="row">
           <div class="col-7 multi_phone" style={{ paddingRight: "0px" }}>
             <img
               className="img-fluid"
@@ -108,9 +125,9 @@ const Rebirth = () => {
               each step of the purchase, collection / delivery, use and return.
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div>
+        {/* <div>
           <img
             className="img-fluid"
             src="https://i.ibb.co/tPGS2RC/Production-and-sourcing.png"
@@ -118,15 +135,15 @@ const Rebirth = () => {
             border="0"
             style={{ marginBottom: "0rem" }}
           />
-        </div>
-
+        </div> */}
+        {/* 
         <div className="app_interface_text brief_text_white_bg">
           To source the materials & components from suppliers to manufacture the
           product, we researched several locations & found these spots in the
           UK. Using analytical material selection, the kit delays obsolescence
           and creates a detailed circular system.
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <img
             className="img-fluid"
             src="https://i.ibb.co/7K99yHW/system-journey-map.png"
@@ -134,16 +151,16 @@ const Rebirth = () => {
             border="0"
             style={{ display: "block", marginLeft: "4%" }}
           />{" "}
-        </div>
-
+        </div> */}
+        {/* 
         <div className=" brief_text_white_bg">
           Two cases for the calculation of Embodied Energy and Carbon Footprint
           were taken. Taking best case scenario with recycling (& no discrete
           delivery), and with discrete delivery and minimum recyclability
           possible.
-        </div>
+        </div> */}
 
-        <div class="row justify-content-evenly  b1_b2 ">
+        {/* <div class="row justify-content-evenly  b1_b2 ">
           <div class="col-6">
             <img
               className="img-fluid_css"
@@ -162,7 +179,7 @@ const Rebirth = () => {
               style={{ width: "auto", height: "654px" }}
             />
           </div>
-        </div>
+        </div> */}
       </div>
       <Link to="/" className="homepage_btn ">
         Home Page

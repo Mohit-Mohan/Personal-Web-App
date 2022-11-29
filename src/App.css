@@ -62,7 +62,7 @@
 }
 
 .name:hover {
-  color: white
+  color: white;
 }
 
 .navbarNav_css {
@@ -140,7 +140,7 @@
 }
 
 .parallax {
-  background: url("https://i.ibb.co/g3gFtTQ/abg1.png");
+  background: url("./media/About_and_Home_Page/abg1.png");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -174,7 +174,7 @@
 }
 
 .parallax2 {
-  background: url("https://i.ibb.co/ZBdhnPG/abg3.png");
+  background: url("./media/About_and_Home_Page/abg3.png");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -217,17 +217,15 @@
     display: none;
   } */
 
-  
-    .allprojects_img {
-      width: 200%;
-      position: absolute;
-      inset: 0;
-      display: none;
-      justify-content: center;
-      align-items: center;
-      color: white;
+  .allprojects_img {
+    width: 200%;
+    position: absolute;
+    inset: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
   }
-  
 
   .nav_css {
     width: 100%;
@@ -288,62 +286,62 @@
   }
 
   .parallax {
-    background: url(https://i.ibb.co/g3gFtTQ/abg1.png);
+    background: url("./media/About_and_Home_Page/abg1.png");
     min-height: 300px;
     background-position: center;
     background-repeat: no-repeat;
   }
   .parallax2 {
-    background: url(https://i.ibb.co/ZBdhnPG/abg3.png);
+    background: url("./media/About_and_Home_Page/abg3.png");
     min-height: 300px;
     background-position: center;
     background-repeat: no-repeat;
   }
   .project1_img1 {
-    background: url(https://i.ibb.co/Qnj788x/grid-0-1.png) !important;
+    background: url("./media/C1_bg/grid_0\ \(1\).png") !important;
     min-height: 300px !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
   }
   .project_img2 {
-    background: url(https://i.ibb.co/wsYVZH4/grid-0-2.png) !important;
+    background: url("./media/C1_bg/grid_0\ \(3\).png") !important;
     min-height: 300px !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
   }
-  .bm_img2{
-    background: url("https://i.ibb.co/5r0rxyc/bm1.png") !important;
+  .bm_img2 {
+    background: url("./media/TF1_bg/bm1.png") !important;
     min-height: 300px !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
   }
-  .bm_img1{
-    background: url("https://i.ibb.co/YRKnW7s/bm3.png")!important;
+  .bm_img1 {
+    background: url("./media//TF1_bg/drive-download-20221119T204605Z-001/new2.png") !important;
     min-height: 300px !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
   }
 
-  .bm_img4{
-    background: url("https://i.ibb.co/ph41Yrq/bm2.png") !important;
+  .bm_img4 {
+    background: url("./media//TF1_bg/drive-download-20221119T204605Z-001/new.png") !important;
     min-height: 300px !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
   }
-  .bm_img3{
-    background: url("https://i.ibb.co/MBKWSFT/bm5.png")!important;
+  .bm_img3 {
+    background: url("./media//TF1_bg/drive-download-20221119T204605Z-001/new1.png") !important;
     min-height: 300px !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
   }
   .project2_img2 {
-    background: url(https://i.ibb.co/2n2gK8f/cifdm.png) !important;
+    background: url("./media/DS_bg/new.png") !important;
     min-height: 300px !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
   }
   .project2_img1 {
-    background: url(https://i.ibb.co/BnBdRgc/ds12.png) !important ;
+    background: url("./media//DS_bg/ds12.png") !important ;
     min-height: 300px !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -356,20 +354,26 @@
   }
 
   .project3_img1 {
-    background: url(https://i.ibb.co/TkYL91T/sdes.png) !important;
+    background: url("./media/SDE_bg/drive-download-20221119T200423Z-001/new.png") !important;
 
     min-height: 300px !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
   }
   .project3_img2 {
-    background: url(https://i.ibb.co/FsW4C4w/sdes12.png) !important;
+    background: url("./media/SDE_bg/drive-download-20221119T200423Z-001/new1.png") !important;
     min-height: 300px !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
   }
-  .project3_img3{
-    background: url(https://i.ibb.co/zJWgwQF/sdsessese.png) !important;
+  .project3_img3 {
+    background: url("./media/SDE_bg/drive-download-20221119T200423Z-001/new3.png") !important;
+    min-height: 300px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+  .project3_img4 {
+    background: url("./media/SDE_bg/drive-download-20221119T200423Z-001/new2.png") !important;
     min-height: 300px !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -382,7 +386,7 @@
     max-width: 70%;
     height: auto;
   }
- 
+
   .token {
     /* padding: 2rem; */
     margin-block: -1px;
@@ -438,7 +442,7 @@
     width: 100%;
   }
 
-  .app_interface_text  div{
+  .app_interface_text div {
     /* padding-inline: 35px !important; */
   }
   .img_css_text {
@@ -463,7 +467,6 @@
   .brief_text_white_bg {
     text-align: left;
     /* padding-inline: 35px !important; */
-
   }
   .img-fluid_css {
     width: 215% !important;
@@ -471,14 +474,13 @@
   .img-fluid_mohit {
     width: 100% !important;
   }
-  .iphone_pad{
+  .iphone_pad {
     padding-inline: 35px !important;
   }
-  .navbar-toggler{
+  .navbar-toggler {
     background-color: #6b6767;
   }
-  .navbar-nav{
+  .navbar-nav {
     padding-top: 5px;
   }
-  
 }
